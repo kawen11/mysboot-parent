@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mysboot-auth" />
         <module name="mysboot-common" />
+        <module name="mysboot-feign" />
         <module name="mysboot-order" />
         <module name="mysboot-server" />
       </profile>

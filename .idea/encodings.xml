@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mysboot-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mysboot-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysboot-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mysboot-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mysboot-server" charset="UTF-8" />
   </component>

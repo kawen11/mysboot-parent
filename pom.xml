@@ -13,6 +13,7 @@
         <module>mysboot-common</module>
         <module>mysboot-order</module>
         <module>mysboot-auth</module>
+        <module>mysboot-feign</module>
     </modules>
 
 
