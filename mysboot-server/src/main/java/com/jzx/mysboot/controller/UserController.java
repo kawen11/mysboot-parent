@@ -2,6 +2,7 @@ package com.jzx.mysboot.controller;
 
 import com.jzx.feign.order.OrderFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,7 +19,7 @@ public class UserController {
     @Autowired
     OrderFeignService orderFeignService;
 
-    @RequestMapping(value = "/findOrderByUserId/{id}")
+    @GetMapping(value = "/findOrderByUserId/{id}")
     public String findOrderByUserId(@PathVariable("id") Integer id) {
         //feign调用
         String result = orderFeignService.findOrderByUserId(id);
