@@ -9,3 +9,7 @@ spring:
         prefix: mysboot-server
   profiles:
     active: dev
+
+mysboot-order:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

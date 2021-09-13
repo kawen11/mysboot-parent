@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mysboot-server" />
+        <module name="mysboot-order" />
         <module name="mysboot-auth" />
         <module name="mysboot-common" />
         <module name="mysboot-feign" />
-        <module name="mysboot-order" />
-        <module name="mysboot-server" />
       </profile>
     </annotationProcessing>
   </component>
