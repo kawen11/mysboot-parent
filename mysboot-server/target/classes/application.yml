@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+      multipart:
+        max-request-size: 100MB
+        max-file-size: 10MB
+  application:
+    name: mysboot-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        prefix: mysboot-server
+
+server:
+  port: 8880
+  servlet:
+    context-path: /bootserver
+mysboot-order:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+

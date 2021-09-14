@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+      multipart:
+        max-request-size: 100MB
+        max-file-size: 10MB
+  application:
+    name: mysboot-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+server:
+  port: 8881
+
+
+
