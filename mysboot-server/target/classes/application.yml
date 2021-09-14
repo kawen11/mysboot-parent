@@ -14,17 +14,11 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-      config:
-        server-addr: localhost:8848
-        file-extension: yaml
-        prefix: mysboot-server
 
 server:
   port: 8880
   servlet:
     context-path: /bootserver
-mysboot-order:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
 
 
